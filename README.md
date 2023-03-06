@@ -20,6 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create VM in Azure 
 - Install and enable IIS in Windows with CGI
+- Download and install essential files
 - Register PHP from within IIS
 - Configure permissions on essential files
 - Set up osTicket in the browser
@@ -41,6 +42,43 @@ After creating a resource group named osTicket, create a Windows 10 Virtual Mach
 Steps to install and enable IIS with CGI:
 <br />
 IIS -> World Wide Web Services -> Application Development Features -> CGI 
+</p>
+<br />
+
+<p>
+Download and install essential files:
+<br />
+<ul>
+  <li>PHP Manager for IIS</li>
+  <li>Rewrite Module</li>
+  <li>Create the directory C:\PHP</li>
+    <ul>
+        <li>Extract the contents of PHP 7.3.8 into C:\PHP</li>
+    </ul>
+  <li>VC_redist.x86.exe</li>
+  <li>MySQL 5.5.62</li>
+     <ul>
+        <li>Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
+    Set password
+       </li>
+     </ul>
+</ul>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
