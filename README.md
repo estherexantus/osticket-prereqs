@@ -49,7 +49,7 @@ IIS -> World Wide Web Services -> Application Development Features -> CGI
 Download and install essential files:
 <br />
 <ul>
-  <li>PHP Manager for IIS</li>
+  <li><a href="[/about/about_team.htm](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view)">PHP Manager for IIS</a></li>
   <li>Rewrite Module</li>
   <li>Create the directory C:\PHP</li>
     <ul>
@@ -154,7 +154,7 @@ Continue setting up osTicket by selecting continue, name the help desk and enter
 <p>
   Clean up files:
   <ul>
-    <li>setup file from Delete: C:\inetpub\wwwroot\osTicket\setup</li>
+    <li>Setup file from Delete: C:\inetpub\wwwroot\osTicket\setup</li>
     <li>Set Permissions to “Read” only for ost-config.php by C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
   </ul>
 </p>
