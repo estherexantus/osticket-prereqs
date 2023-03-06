@@ -22,8 +22,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install and enable IIS in Windows with CGI
 - Download and install essential files
 - Register PHP from within IIS
+- Installing and configuring Heidi SQL
 - Configure permissions on essential files
-- Set up osTicket in the browser
 
 <h2>Installation Steps</h2>
 
