@@ -46,10 +46,10 @@ IIS -> World Wide Web Services -> Application Development Features -> CGI
 <br />
 
 <p>
-Download and install essential files:
+Download and install essential files with this link: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <br />
 <ul>
-  <li><a href="[/about/about_team.htm](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view)">PHP Manager for IIS</a></li>
+  <li>PHP Manager for IIS</a></li>
   <li>Rewrite Module</li>
   <li>Create the directory C:\PHP</li>
     <ul>
@@ -158,6 +158,7 @@ Continue setting up osTicket by selecting continue, name the help desk and enter
     <li>Set Permissions to “Read” only for ost-config.php by C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
   </ul>
 </p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/9mAEXiw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
