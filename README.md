@@ -67,25 +67,102 @@ Download and install essential files:
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Jqpenhh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After opening IIS as an admin, register PHP from within IIS. Be sure to restart ISS afterwards. Do so by selecting "Register new PHP version".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lc7MPDg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to sites -> Default -> osTicket -> Click “Browse *:80” on the right
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/AW0xbBq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket site should pop up
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sj02am0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Some extensions neeed to be enabled. Follow these directions:
+  <ol>
+    <li>Go back to IIS, sites -> Default -> osTicket</li>
+    <li>Double-click PHP Manager</li>
+    <li>Enable these extensions</li>
+      <ul>
+        <li>php_imap.dll</li>
+        <li>php_intl.dll</li>
+        <li>php_opcache.dll</li>
+        <li>Refresh the osTicket site in your browse</li>
+      </ul>
+  </ol>
+</p>
+<br />
+
+<p>
+Rename file to ost-config.php and assign permissions 
+  <ol>
+    <li>Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</li>
+    <li>Change ost-sampleconfig.php to ost-config.php</li>
+    <li>Disable inheritance by going to properties and select remove all</li>
+    <li>Add new permissions and rovide all users full control</li>
+  </ol>
+</p>
+<br />
+
+<p>
+Continue setting up osTicket by selecting continue, name the help desk and enter a default email. 
+</p>
+<br />
+
+<p>
+  <img src="https://i.imgur.com/r2rn6N1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Download and install the Heidi SQL:
+  <ul>
+    <li>Open Heidi SQL</li>
+    <li>Create a new session, username is root and enter a password</li>
+    <li>Connect to the session</li>
+    <li>Create a database called “osTicket”</li>
+  </ul>
+ </p>
+ 
+ <br />
+ <p>
+ Continue setting up osTicket in the browser:
+  <ul>
+    <li>MySQL Database: osTicket</li>
+    <li>MySQL Username: root</li>
+    <li>MySQL Password: Password1</li>
+    <li>Click “Install Now!”</li>
+    <li>Click “Congratulations! osTicket should be installed with no errors.”</li>
+  </ul>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9mAEXiw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+When searching this site, it should've load this page successfully. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/BdoSCUs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Page after logging in with credentials 
 </p>
 <br />
