@@ -152,6 +152,14 @@ Continue setting up osTicket by selecting continue, name the help desk and enter
 <br />
 
 <p>
+  Clean up files:
+  <ul>
+    <li>setup file from Delete: C:\inetpub\wwwroot\osTicket\setup</li>
+    <li>Set Permissions to “Read” only for ost-config.php by C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
+  </ul>
+</p>
+
+<p>
 <img src="https://i.imgur.com/9mAEXiw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
